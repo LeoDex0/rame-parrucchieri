@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+:root {
+  --color-noir: #131110;
+  --color-noir-2: #1d1a17;
+  --color-avorio: #f5f0e6;
+  --color-avorio-2: #ece3d1;
+  --color-ottone: #ad8a55;
+  --color-ottone-2: #8a6c3f;
+  --color-line: rgba(19, 17, 16, 0.12);
+}
+
+@theme inline {
+  --color-noir: var(--color-noir);
+  --color-noir-2: var(--color-noir-2);
+  --color-avorio: var(--color-avorio);
+  --color-avorio-2: var(--color-avorio-2);
+  --color-ottone: var(--color-ottone);
+  --color-ottone-2: var(--color-ottone-2);
+  --color-line: var(--color-line);
+
+  --font-display: var(--font-playfair);
+  --font-accent: var(--font-cormorant);
+  --font-body: var(--font-worksans);
+
+  --animate-rise: rise 1s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-marquee: marquee 32s linear infinite;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-avorio);
+  color: var(--color-noir);
+  font-family: var(--font-body);
+}
+
+.font-accent {
+  font-family: var(--font-accent);
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.hairline {
+  border-top: 1px solid var(--color-line);
+}
+
+.text-stroke-ottone {
+  -webkit-text-stroke: 1px var(--color-ottone);
+}
+
+::selection {
+  background: var(--color-ottone);
+  color: var(--color-avorio);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-avorio);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ottone);
+  border-radius: 999px;
+  border: 2px solid var(--color-avorio);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ottone);
+  outline-offset: 3px;
+}
+
+/* hide scrollbar on the mobile snap-scroll lookbook track while keeping it usable */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
