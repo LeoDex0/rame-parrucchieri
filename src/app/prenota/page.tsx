@@ -6,9 +6,9 @@ import MapEmbed from "@/components/MapEmbed";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "Prenota — DI.EM Parrucchieri",
+  title: "Prenota — Rame Parrucchieri",
   description:
-    "Prenota un appuntamento da DI.EM Parrucchieri, Viale Giacomo Matteotti 27, Rimini. Chiamaci allo 0541 24677 o compila il modulo di richiesta.",
+    "Prenota un appuntamento da Rame Parrucchieri, Rimini. Chiamaci allo 0541 55210 o compila il modulo di richiesta.",
 };
 
 export default function PrenotaPage() {
@@ -26,26 +26,24 @@ export default function PrenotaPage() {
             <div>
               <span className="eyebrow mb-4 block text-ottone-2">Indirizzo</span>
               <a
-                href="https://maps.google.com/?q=Viale+Giacomo+Matteotti+27,+Rimini"
+                href="https://maps.google.com/?q=Rimini,+Italy"
                 target="_blank"
                 rel="noreferrer"
                 className="group flex items-start gap-3"
               >
                 <MapPin size={22} strokeWidth={1.5} className="mt-1 shrink-0 text-ottone" />
                 <span className="font-display text-2xl italic leading-snug group-hover:underline">
-                  Viale Giacomo Matteotti 27,
-                  <br />
-                  47921 Rimini (RN)
+                  Rimini (RN)
                 </span>
               </a>
             </div>
 
             <div>
               <span className="eyebrow mb-4 block text-ottone-2">Telefono</span>
-              <a href="tel:0541224677" className="group flex items-center gap-3">
+              <a href="tel:0541255210" className="group flex items-center gap-3">
                 <Phone size={22} strokeWidth={1.5} className="shrink-0 text-ottone" />
                 <span className="font-display text-3xl italic group-hover:underline">
-                  0541 24677
+                  0541 55210
                 </span>
               </a>
               <p className="mt-3 max-w-xs text-sm text-noir/50">

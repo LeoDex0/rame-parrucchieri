@@ -23,7 +23,7 @@ export default function Hero() {
       <motion.div style={{ scale: imageScale, y: imageY }} className="absolute inset-0">
         <Image
           src={photo("flyingHair", 2000)}
-          alt="Chioma in movimento, colore vivo — DI.EM Parrucchieri"
+          alt="Chioma in movimento, colore vivo — Rame Parrucchieri"
           fill
           priority
           sizes="100vw"
@@ -43,7 +43,7 @@ export default function Hero() {
           transition={{ duration: 0.9, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="eyebrow text-ottone"
         >
-          DI.EM Parrucchieri &mdash; Viale Giacomo Matteotti 27, Rimini
+          Rame Parrucchieri &mdash; Rimini
         </motion.span>
 
         <motion.h1

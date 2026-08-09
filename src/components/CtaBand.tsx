@@ -31,11 +31,11 @@ export default function CtaBand({
             />
           </Link>
           <a
-            href="tel:0541224677"
+            href="tel:0541255210"
             className="inline-flex items-center justify-center gap-2 border border-avorio/30 px-8 py-4 text-sm font-medium tracking-wide text-avorio transition-colors hover:border-avorio"
           >
             <Phone size={15} strokeWidth={1.75} />
-            0541 24677
+            0541 55210
           </a>
         </Reveal>
       </div>

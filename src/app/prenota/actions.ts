@@ -42,7 +42,7 @@ export async function submitBooking(
   // pending state in the UI is visible and honest.
   await new Promise((resolve) => setTimeout(resolve, 500));
 
-  console.log("[DI.EM Parrucchieri] Nuova richiesta di prenotazione:", {
+  console.log("[Rame Parrucchieri] Nuova richiesta di prenotazione:", {
     nome,
     telefono,
     servizio,

@@ -36,8 +36,8 @@ export default function BookingForm() {
         <p className="text-noir/70">{state.message}</p>
         <p className="text-sm text-noir/50">
           Per qualsiasi urgenza potete comunque chiamarci al{" "}
-          <a href="tel:0541224677" className="underline underline-offset-2">
-            0541 24677
+          <a href="tel:0541255210" className="underline underline-offset-2">
+            0541 55210
           </a>
           .
         </p>

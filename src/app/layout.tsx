@@ -26,12 +26,12 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "DI.EM Parrucchieri — Rimini",
+  title: "Rame Parrucchieri — Rimini",
   description:
-    "DI.EM Parrucchieri, Viale Giacomo Matteotti 27, Rimini. Taglio, colore, trattamenti ricostituenti e styling. 4,8★ su Google con 87 recensioni. Richiedi un preventivo.",
-  metadataBase: new URL("https://diem-parrucchieri.vercel.app"),
+    "Rame Parrucchieri, Rimini. Taglio, colore, trattamenti ricostituenti e styling. 4,7★ su Google con 64 recensioni. Richiedi un preventivo.",
+  metadataBase: new URL("https://rame-parrucchieri.vercel.app"),
   openGraph: {
-    title: "DI.EM Parrucchieri — Rimini",
+    title: "Rame Parrucchieri — Rimini",
     description:
       "Taglio, colore, trattamenti ricostituenti e styling a Rimini. Richiedi un preventivo su misura.",
     locale: "it_IT",

@@ -39,7 +39,7 @@ export default function Home() {
         <Reveal delay={0.2} className="relative h-72 md:col-span-3 md:h-auto">
           <Image
             src={photo("salonInterior", 1000)}
-            alt="Interno del salone DI.EM Parrucchieri"
+            alt="Interno del salone Rame Parrucchieri"
             fill
             sizes="(min-width: 768px) 25vw, 90vw"
             className="object-cover"

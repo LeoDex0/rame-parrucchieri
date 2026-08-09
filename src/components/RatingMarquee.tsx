@@ -8,10 +8,10 @@ const ITEM = (
       ))}
     </span>
     <span className="font-display text-lg italic md:text-xl">
-      4,8 su Google &mdash; 87 recensioni
+      4,7 su Google &mdash; 64 recensioni
     </span>
     <span className="text-avorio/30">&mdash;</span>
-    <span className="eyebrow text-avorio/60">Viale Giacomo Matteotti 27, Rimini</span>
+    <span className="eyebrow text-avorio/60">Rimini</span>
   </span>
 );
 

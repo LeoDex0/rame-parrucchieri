@@ -8,9 +8,9 @@ import Reveal from "@/components/Reveal";
 import { SERVIZI } from "@/lib/servizi";
 
 export const metadata: Metadata = {
-  title: "Servizi — DI.EM Parrucchieri",
+  title: "Servizi — Rame Parrucchieri",
   description:
-    "Taglio, colore, trattamenti ricostituenti e styling da DI.EM Parrucchieri a Rimini. Richiedi un preventivo su misura per la tua chioma.",
+    "Taglio, colore, trattamenti ricostituenti e styling da Rame Parrucchieri a Rimini. Richiedi un preventivo su misura per la tua chioma.",
 };
 
 export default function ServiziPage() {

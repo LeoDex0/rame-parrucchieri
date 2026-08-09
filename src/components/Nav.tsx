@@ -36,7 +36,7 @@ export default function Nav() {
         <div className="mx-auto flex max-w-[1600px] items-center justify-between px-6 py-6 text-white md:px-10">
           <Link href="/" className="flex items-baseline gap-2">
             <span className="font-display text-2xl italic tracking-wide md:text-3xl">
-              DI.EM
+              RAME
             </span>
             <span className="eyebrow hidden text-white/80 sm:inline">
               Parrucchieri
@@ -60,11 +60,11 @@ export default function Nav() {
               </Link>
             ))}
             <a
-              href="tel:0541224677"
+              href="tel:0541255210"
               className="eyebrow flex items-center gap-2 rounded-full border border-white/60 px-4 py-2 transition-colors hover:border-white"
             >
               <Phone size={13} strokeWidth={1.75} />
-              0541 24677
+              0541 55210
             </a>
           </nav>
 
@@ -100,9 +100,9 @@ export default function Nav() {
           ))}
         </nav>
         <div className="flex flex-col gap-3">
-          <span className="eyebrow text-ottone">Viale Giacomo Matteotti 27, Rimini</span>
-          <a href="tel:0541224677" className="font-display text-3xl italic">
-            0541 24677
+          <span className="eyebrow text-ottone">Rimini</span>
+          <a href="tel:0541255210" className="font-display text-3xl italic">
+            0541 55210
           </a>
         </div>
       </div>

@@ -9,9 +9,9 @@ import { LOOKBOOK_ITEMS } from "@/lib/lookbook";
 import { photo } from "@/lib/photos";
 
 export const metadata: Metadata = {
-  title: "Galleria — DI.EM Parrucchieri",
+  title: "Galleria — Rame Parrucchieri",
   description:
-    "La lookbook di DI.EM Parrucchieri: tagli, colore e styling realizzati nel nostro salone di Rimini.",
+    "La lookbook di Rame Parrucchieri: tagli, colore e styling realizzati nel nostro salone di Rimini.",
 };
 
 const ALTRI_MOMENTI = [
