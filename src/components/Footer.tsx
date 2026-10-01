@@ -77,7 +77,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 flex flex-col gap-3 border-t border-avorio/10 pt-6 text-xs text-avorio/40 md:flex-row md:items-center md:justify-between">
-          <p>&copy; {new Date().getFullYear()} Rame Parrucchieri. Tutti i diritti riservati.</p>
+          <p>&copy; {new Date().getFullYear()} Rame Parrucchieri. Tutti i diritti riservati.{" · "}<a href="https://leodex.dev/it/" className="underline-offset-2 hover:underline">Sito realizzato da LeoDex</a></p>
           <p>Rimini (RN)</p>
         </div>
       </div>
