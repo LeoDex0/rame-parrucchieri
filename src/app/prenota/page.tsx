@@ -8,7 +8,7 @@ import Reveal from "@/components/Reveal";
 export const metadata: Metadata = {
   title: "Prenota — Rame Parrucchieri",
   description:
-    "Prenota un appuntamento da Rame Parrucchieri, Rimini. Chiamaci allo 0541 55210 o compila il modulo di richiesta.",
+    "Prenota un appuntamento da Rame Parrucchieri. Chiamaci allo 0541 55210 o compila il modulo di richiesta.",
 };
 
 export default function PrenotaPage() {

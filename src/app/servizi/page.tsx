@@ -10,7 +10,7 @@ import { SERVIZI } from "@/lib/servizi";
 export const metadata: Metadata = {
   title: "Servizi — Rame Parrucchieri",
   description:
-    "Taglio, colore, trattamenti ricostituenti e styling da Rame Parrucchieri a Rimini. Richiedi un preventivo su misura per la tua chioma.",
+    "Taglio, colore, trattamenti ricostituenti e styling da Rame Parrucchieri. Richiedi un preventivo su misura per la tua chioma.",
 };
 
 export default function ServiziPage() {

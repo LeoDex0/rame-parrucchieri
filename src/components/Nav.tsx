@@ -100,7 +100,7 @@ export default function Nav() {
           ))}
         </nav>
         <div className="flex flex-col gap-3">
-          <span className="eyebrow text-ottone">Rimini</span>
+          <span className="eyebrow text-ottone">Chiamaci</span>
           <a href="tel:0541255210" className="font-display text-3xl italic">
             0541 55210
           </a>

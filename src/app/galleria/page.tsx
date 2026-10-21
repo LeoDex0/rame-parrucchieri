@@ -11,7 +11,7 @@ import { photo } from "@/lib/photos";
 export const metadata: Metadata = {
   title: "Galleria — Rame Parrucchieri",
   description:
-    "La lookbook di Rame Parrucchieri: tagli, colore e styling realizzati nel nostro salone di Rimini.",
+    "La lookbook di Rame Parrucchieri: tagli, colore e styling realizzati nel nostro salone.",
 };
 
 const ALTRI_MOMENTI = [

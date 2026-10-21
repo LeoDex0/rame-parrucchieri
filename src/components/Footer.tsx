@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-[1.3fr_0.7fr_0.7fr_0.9fr]">
           <div>
             <p className="font-display text-4xl italic md:text-5xl">RAME</p>
-            <p className="eyebrow mt-2 text-avorio/60">Parrucchieri &mdash; Rimini</p>
+            <p className="eyebrow mt-2 text-avorio/60">Parrucchieri &mdash; dal salone</p>
             <p className="font-accent mt-8 max-w-xs text-xl italic text-avorio/80">
               Taglio, colore e cura del capello, con la precisione di un
               atelier e l&rsquo;attenzione di un salone di quartiere.

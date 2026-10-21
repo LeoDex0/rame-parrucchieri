@@ -30,7 +30,7 @@ export default function Home() {
             Il nostro team lavora ogni giorno su taglio, colore e trattamenti
             con un approccio artigianale: prima si ascolta, poi si taglia.
             Tecniche aggiornate, prodotti professionali e la cura di un
-            salone di quartiere nel cuore di Rimini.
+            salone di quartiere.
           </p>
         </Reveal>
 

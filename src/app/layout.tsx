@@ -26,14 +26,14 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Rame Parrucchieri — Rimini",
+  title: "Rame Parrucchieri",
   description:
-    "Rame Parrucchieri, Rimini. Taglio, colore, trattamenti ricostituenti e styling. 4,7★ su Google con 64 recensioni. Richiedi un preventivo.",
+    "Rame Parrucchieri. Taglio, colore, trattamenti ricostituenti e styling. 4,7★ su Google con 64 recensioni. Richiedi un preventivo.",
   metadataBase: new URL("https://rame-parrucchieri.vercel.app"),
   openGraph: {
-    title: "Rame Parrucchieri — Rimini",
+    title: "Rame Parrucchieri",
     description:
-      "Taglio, colore, trattamenti ricostituenti e styling a Rimini. Richiedi un preventivo su misura.",
+      "Taglio, colore, trattamenti ricostituenti e styling. Richiedi un preventivo su misura.",
     locale: "it_IT",
     type: "website",
   },

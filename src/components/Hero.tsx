@@ -43,7 +43,7 @@ export default function Hero() {
           transition={{ duration: 0.9, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="eyebrow text-ottone"
         >
-          Rame Parrucchieri &mdash; Rimini
+          Rame Parrucchieri
         </motion.span>
 
         <motion.h1
@@ -54,7 +54,7 @@ export default function Hero() {
         >
           L&rsquo;arte del
           <br />
-          taglio, a Rimini.
+          taglio.
         </motion.h1>
 
         <motion.p
