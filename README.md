@@ -2,7 +2,9 @@
 
 Website for a hair salon.
 
-**Live:** https://rame-parrucchieri.vercel.app
+![Preview](.github/preview.jpg)
+
+**Live:** [rame-parrucchieri.vercel.app](https://rame-parrucchieri.vercel.app)
 
 ## Stack
 
