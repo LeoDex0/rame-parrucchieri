@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
-import RatingMarquee from "@/components/RatingMarquee";
 import ServicesHighlight from "@/components/ServicesHighlight";
 import LookbookTeaser from "@/components/LookbookTeaser";
 import CtaBand from "@/components/CtaBand";
@@ -11,7 +10,6 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <RatingMarquee />
 
       <section className="mx-auto grid max-w-[1600px] gap-12 px-6 py-24 md:grid-cols-12 md:gap-6 md:px-10 md:py-36">
         <Reveal className="md:col-span-5">
