@@ -1,6 +1,6 @@
 # Rame Parrucchieri
 
-Website for a hair salon in Rimini, Italy.
+Website for a hair salon.
 
 **Live:** https://rame-parrucchieri.vercel.app
 
